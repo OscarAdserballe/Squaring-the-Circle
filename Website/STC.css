@@ -1,0 +1,167 @@
+* {
+    font-family: Century Gothic, Calibri;
+    list-style-type: none;
+}
+
+@media all and (max-width: 1000px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+#nav_bar_image {
+    height: 128px;
+}
+
+#nav_bar {
+    background-color: white;
+    z-index: 1;
+    height: 128px;
+    width: 100%;
+    position: fixed;
+    margin: -10px 0px 0px -10px;
+}
+
+#nav_bar ul{
+    float: right;
+    margin-right: 10%;
+    margin-top: 48px;
+    height: 50%;
+    max-height: 128px;
+}
+
+#nav_bar li {
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 2vw;
+}
+
+@media all and (min-width: 1920px) {
+    #nav_bar li{
+        font-size: 32px;
+      }
+}
+
+a {
+    text-decoration: none;    
+}
+
+a:visited {
+    color: blue;
+}
+
+#title {
+    text-align: center;
+    font-size: 6.666vw;
+    font-weight: bold;
+    margin-top: 13%;
+}
+
+.sub-title {
+    opacity: 0.6;
+    text-align: center;
+    font-size: 3.333vw;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -3%;
+}
+
+#screenshot {
+    width: 100%;
+    top: 126px;
+    margin-left: -10px;
+    position: absolute;
+    z-index: -1;
+}
+
+#background {
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+}
+
+canvas {
+    width: 60%;
+    height: 33.75%;
+    border: 5px solid #000000;
+    margin: 51% auto auto 20%;
+}
+
+.below_screenshot {
+    padding-top: 50%;
+}
+
+
+#controls {
+    width: 40%;
+    padding-left: 30%;
+}
+
+.center {
+    text-align: center;
+}
+
+#controls ul {
+    width: 50%;
+    margin-left: 27.5%;
+    max-width: 20vw;
+    min-width: 20vw;
+}
+
+#controls li {
+    display: inline-block;
+}
+
+#controls p {
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 1.25vw;
+}
+
+#controls img {
+    height: 6.666vw;
+}
+
+#story_div {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#story_div h2 {
+    font-size: 2.5vw;
+    margin-bottom: 5%;
+}
+
+#story_div h3 {
+    font-size: calc(15px + 0.3125w);
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    margin-bottom: -0.75%;
+}
+
+#story_div p {
+    font-size: calc(16px + 0.155vw);
+}
+
+.inline {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.right p {
+    width: 85%;
+    float: left;
+}
+
+.right img {
+    float: right;
+    margin-top: 2%;
+    height: 5vw;
+}
+
+#extendStoryPage {
+    padding-bottom: 10%;
+}
